@@ -21,7 +21,6 @@ public class MyClass {
     @BeforeClass
     public static void init() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Can\\IdeaProjects\\CS458P4\\src\\chromedriver.exe");
-
         drv = new ChromeDriver();
     }
 
